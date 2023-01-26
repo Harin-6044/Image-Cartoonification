@@ -26,6 +26,6 @@
 * Masking Image
 * Cartooning Effect
 
-<p align = "justify">&emsp;First by using easygui, the upload of the image is done and then the image is converted to a greyscale image. The next two steps are the important steps for converting original images into cartoon images. They are smoothening and then retrieving the edges. In this process, color of the image is smoothened to give the cartoon look and then the retrieval of the edges are done and highlighted in the final image.</p>
+<p align = "justify">&emsp;&emsp;First by using easygui, the upload of the image is done and then the image is converted to a greyscale image. The next two steps are the important steps for converting original images into cartoon images. They are smoothening and then retrieving the edges. In this process, color of the image is smoothened to give the cartoon look and then the retrieval of the edges are done and highlighted in the final image.</p>
 
-<p align = "justify">&emsp;Next, the preparation of the mask image is done. In this, the bilateral filter is used which removes the noise and smoothen it to some extent. Now the final step is giving the cartooning effect. To the image which is obtained in the previous step, the combination of the two important steps is done and finally gives a mask-edged image that looks like a cartoon image.</p>
+<p align = "justify">&emsp;&emsp;Next, the preparation of the mask image is done. In this, the bilateral filter is used which removes the noise and smoothen it to some extent. Now the final step is giving the cartooning effect. To the image which is obtained in the previous step, the combination of the two important steps is done and finally gives a mask-edged image that looks like a cartoon image.</p>
